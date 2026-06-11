@@ -393,6 +393,7 @@ h2 {
   overflow: hidden;
   width: 350px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height:fit-content;
 }
 
 .projet-card:hover {
