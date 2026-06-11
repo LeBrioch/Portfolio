@@ -23,12 +23,15 @@ document.addEventListener('DOMContentLoaded', function() {
     `,
     1: `
       <div class="competences-list">
-        <div class="competence-item">Java</div>
+        <div class="competence-item">PHP</div>
         <div class="competence-item">JavaScript</div>
+        <div class="competence-item">HTML/CSS</div>
+        <div class="competence-item">Java</div>
         <div class="competence-item">Python</div>
         <div class="competence-item">SQL</div>
         <div class="competence-item">Git</div>
         <div class="competence-item">Algorithmique</div>
+        <div class="competence-item">UML</div>
       </div>
     `,
     2: `
