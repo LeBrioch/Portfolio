@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mon Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<body>
+  <section class="accueil">
+    <div class="image-hero">
+      <img src="chess.jpg" alt="Image Hero">
+      <div class="hero-overlay">
+        <div class="texte-hero">
+          <h1>Herbrecht Yann</h1>
+          <p>Mon portfolio</p>
+          <div class="boutons-accueil">
+            <a href="#a-propos">À propos</a>
+            <a href="#experiences">Expériences</a>
+            <a href="#projets">Projets</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <header class="en-tete">
+    <div class="logo" onclick="scrollToTop()">
+      <img src="home.png" alt="Logo">
+    </div>
+    <nav>
+      <a href="#a-propos">À propos</a>
+      <a href="#experiences">Expériences</a>
+      <a href="#competences">Compétences</a>
+      <a href="#projets">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="a-propos" class="a-propos">
+    <h2>À propos de moi</h2>
+    <div class="presentation">
+      <div class="photo">
+        <img src="Yann.jpg" alt="">
+      </div>
+      <div>
+        <p>Bonjour, je suis Yann Herbrecht, étudiant en informatique passioné par le développement algorithmique et les mathématiques.</p>
+        <ul class="infos">
+          <li><strong>Nom :</strong> Herbrecht Yann</li>
+          <li><strong>Âge :</strong> 20 ans</li>
+          <li><strong>Poste actuel :</strong> Étudiant en informatique (BUT Info)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="experiences" class="experiences">
+    <h2>Expériences</h2>
+    <div class="frise">
+      <div class="etape droite">
+        <div class="date">2018</div>
+        <div class="description">
+          <h3>Premiers stages</h3>
+          <p>Réalisation de 2 stages de 3ème ayant pour but de découvrir le monde professionnel</p>
+        </div>
+      </div>
+      <div class="etape gauche">
+        <div class="date">2021</div>
+        <div class="description">
+          <h3>Obtention du BAC</h3>
+          <p>Baccalauréat obtenu mention Très bien avec comme spécialités Mathématiques, LLCE (Anglais) et HLP (Philosophie)</p>
+        </div>
+      </div>
+      <div class="etape droite">
+        <div class="date">2022</div>
+        <div class="description">
+          <h3>Entrée à Polytech</h3>
+          <p>Réussite des concours Geipi et Avenir grâce à un apprentissage en autonomie de la Physique / Chimie</p>
+        </div>
+      </div>
+      <div class="etape gauche">
+        <div class="date">2023</div>
+        <div class="description">
+          <h3>Service civique</h3>
+          <p>Suite à un manque d'interêt en physique/chimie, prise d'une année sabatique ayant pour but de trouver le domaine qui m'intéresse le plus</p>
+        </div>
+      </div>
+      <div class="etape droite">
+        <div class="date">2024</div>
+        <div class="description">
+          <h3>BUT Informatique</h3>
+          <p>Première année de BUT Informatique</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="competences" class="competences">
+    <h2>Compétences</h2>
+    <div class="onglets">
+      <button class="actif" data-tab="0">Langues</button>
+      <button data-tab="1">Informatique</button>
+      <button data-tab="2">Générales</button>
+    </div>
+    <div class="contenu-onglet"></div>
+  </section>
+
+    <section id="projets" class="projets">
+    <h2>Mes Projets</h2>
+    <div class="projets-container">
+      <div class="projet-card">
+        <div class="projet-content">
+          <h3>Mega SAE - Gestion Événementielle</h3>
+          <div class="projet-details">
+            <div class="projet-section">
+              <h4>Description</h4>
+              <p>Développement d'une application lourde de gestion d'événements d'associations de village avec gestion des participants et des véhicules.</p>
+            </div>
+            <div class="projet-section">
+              <h4>Compétences mobilisées</h4>
+              <ul>
+                <li>Développement (Java / JavaFX)</li>
+                <li>Gestion de projet agile</li>
+              </ul>
+            </div>
+            <div class="projet-section">
+              <h4>Objectifs</h4>
+              <p>Créer une solution complète pour faciliter l'organisation des événements entre villages.</p>
+            </div>
+            <div class="projet-section">
+              <h4>Travail en groupe</h4>
+              <p>Équipe de 5 personnes avec répartition des tâches selon les compétences de chacun.</p>
+            </div>
+            <div class="projet-section">
+              <h4>Ma contribution</h4>
+              <p>Chef de projet avec participation à la modélisation</p>
+            </div>
+            <div class="projet-section">
+              <h4>Acquis</h4>
+              <ul>
+                <li>Expérience en travail collaboratif avec Git</li>
+                <li>Amélioration des compétences en résolution de problèmes</li>
+                <li>Expérience en réalisation de visualisations UML (Cas d'utilisations / Diagramme de classe / Diagrammes objet / Diagrammes de séquence)</li>
+              </ul>
+            </div>
+          </div>
+          <a href="#" class="btn-details">Voir plus de détails</a>
+        </div>
+      </div>
+    </section>
+
+  <section id="contact" class="contact">
+    <h2>Me contacter</h2>
+    <form>
+      <input type="text" placeholder="Nom" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Votre message..." rows="5" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer class="main-footer">
+    <div class="footer-content">
+      <div class="contact-info">
+        <h3>Contactez-moi</h3>
+        <p><i class="fas fa-envelope"></i> Yann.Herbrecht@etu.univ-grenoble-alpes.fr</p>
+        <p><i class="fas fa-phone"></i> +33 7 86 02 87 01</p>
+      </div>
+      <div class="social-links">
+        <h3>Réseaux professionnels</h3>
+        <a href="https://www.linkedin.com/in/yann-herbrecht-a8741436a/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="https://github.com/LeBrioch" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2025 Herbrecht Yann - Tous droits réservés</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  </body>
+  </html>
