@@ -23,15 +23,16 @@ document.addEventListener('DOMContentLoaded', function() {
     `,
     1: `
       <div class="competences-list">
-        <div class="competence-item">PHP</div>
-        <div class="competence-item">JavaScript</div>
-        <div class="competence-item">HTML/CSS</div>
-        <div class="competence-item">Java</div>
-        <div class="competence-item">Python</div>
-        <div class="competence-item">SQL</div>
-        <div class="competence-item">Git</div>
-        <div class="competence-item">Algorithmique</div>
-        <div class="competence-item">UML</div>
+        <div class="competence-item"><i class="fab fa-php"></i> PHP</div>
+        <div class="competence-item"><i class="fab fa-js"></i> JavaScript</div>
+        <div class="competence-item"><i class="fab fa-html5"></i> HTML</div>
+        <div class="competence-item"><i class="fab fa-css3-alt"></i> CSS</div>
+        <div class="competence-item"><i class="fab fa-java"></i> Java</div>
+        <div class="competence-item"><i class="fab fa-python"></i> Python</div>
+        <div class="competence-item"><i class="fas fa-database"></i> SQL</div>
+        <div class="competence-item"><i class="fab fa-git-alt"></i> Git</div>
+        <div class="competence-item"><i class="fas fa-code"></i> Algorithmique</div>
+        <div class="competence-item"><i class="fas fa-diagram-project"></i> UML</div>
       </div>
     `,
     2: `
